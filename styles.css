@@ -1,0 +1,101 @@
+body{
+	font:normal 12px/14px Arial;
+	background: #e4e2e0
+}
+#addRow{ 
+	float:left
+}
+#wrapper{
+	position: relative;
+	background:url("images/page-bg.png") repeat 0 0;
+}
+#board-bg{
+	background: #ddd6d2 url("images/board-bg.png") no-repeat 0 0;
+    opacity: 0.1;
+	  top: 84px;
+	  left: 136px;
+	  bottom: 0;
+	  right: 0;
+	  position: absolute;
+}
+
+#myTable{
+	border: 8px solid #ccc;
+	height: 500px;
+	background: #e6e4e2;
+	width:75%;
+	margin:0 auto;
+}
+.card{
+	background: url("images/white-card.png") no-repeat scroll -31px -12px rgba(0, 0, 0, 0);
+    display: block;
+    height: 130px;
+    left: 0;
+    position: absolute;
+    top: 34px;
+    width: 192px;
+    z-index: 99;
+}
+
+.card .content{
+	color: black;
+    display: block;
+    font-family: 'Covered By Your Grace',"Arial Rounded MT Bold",arial,serif;
+    font-size: 18px;
+    line-height: 20px;
+    height: 82px;
+    letter-spacing: 0;
+    overflow: hidden;
+    padding: 20px 10px 0;
+    text-align: center;
+    width: 78%;
+    z-index: 99;
+}
+
+.show{
+	display: block !important;
+}
+.hide{
+	display: none;
+}
+.card-icon {
+    display: none;
+    height: 16px;
+    left: 82%;
+    opacity: 0.3;
+    position: absolute;
+    top: 3%;
+    width: 16px;
+}
+
+.customTable{
+    box-shadow: 1px 1px 3px #999 inset;
+	height: 100%;
+    width: 100%;
+}
+.customTable td{
+	background:url("images/divider.png") repeat-y top left;
+	vertical-align: top;
+	text-align: center;
+	width: 100px;
+	line-height: 26px;
+	white-space: none;
+	padding: 0 20px;
+	
+}
+.customTable td:first-child{
+	background: none;
+}
+.customTable td h3{
+	width: 100%;
+	color: #5c9db4;
+    font-family: 'Rock Salt',"Arial Rounded MT Bold",arial,serif;
+    font-size: 18px;
+}
+
+
+#button-wrapper{
+	margin: 10px;
+}
+
+
