@@ -56,12 +56,16 @@
 		},
 
 		getChit = function() {
-
+			
+			
+				
 			var dataValueCounter = $(".card:last").attr("data-count")
-			counter = parseInt(dataValueCounter),
+				counter = parseInt(dataValueCounter),
 				newDivName = "content-container";
-
+			
 			if (dataValueCounter) {
+			
+				
 				newCounter = counter + 1;
 
 				$(".cardClone").clone()
@@ -75,6 +79,8 @@
 					.dragBackCard;
 				draggableCard();
 			}
+			
+			
 
 			return this;
         },
@@ -85,7 +91,8 @@
 				revert: "invalid"
 			});
 
-
+			
+			
 			return this;
 		},
 		
@@ -95,14 +102,19 @@
 				$card = $(".card");
 			
 			$card.on("click", function() {
-
 				$(_this).draggable("option", "disabled", true); //Invoke the method:
 				$(_this).attr('contenteditable', 'true');
 			}).blur(function() {
-				$(_this).draggable('option', 'disabled', false);
-				$(_this).attr('contenteditable', 'false');
+					$(_this).draggable('option', 'disabled', false);
+					$(_this).attr('contenteditable', 'false');
 			}).draggable();
 
+			$('.card .content').bind("dblclick", function(){
+				$this = $(this);
+				$this.blur();
+				$this.focus();
+			});
+			
 			$card.hover(function() {
 				$(_this).find(".cross").show();
 			}, function() {
