@@ -1,4 +1,4 @@
-# agile-LLPBoard
+# Visual Agile Methodology board
 This LLP Board help all team members to know the status of stories using agile methodology or it is all about to track status of assigned stories to individual as we do in LLP board physical.
 
 Steps to create LLP Board
