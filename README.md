@@ -8,13 +8,3 @@ Steps to create LLP Board
 3) After adding all the required Headers of LLP Board, User can save the table Data by click "SAVE TABLE DATA" button. </br>
 4) Now time to add chits and enter stories details in gist. For that just click on "GET CHIT" button and add details. </br>
 5) User have to drag an item in between table. If user drag chit outsite of LLP board it will come back. </br>
-
---------------------------------------------------------------------------------------------------------------------
-   STORIES           |    IN PLANNING      |      IN WIP          |     IN QA      |   IN REOPEN     |   COMPLETED
---------------------------------------------------------------------------------------------------------------------
-  STORY ID [52144]   |                     |       -DO-           |                |                  |
-  STORY ID [48529]   |                     |                      |       -DO-     |                  |
-  STORY ID [45287]   |                     |       -DO-           |                |                  |
-  STORY ID [89567]   |                     |                      |                |      -DO-        |
-  STORY ID [55142]   |                     |                      |                |                  |   -DO-
-  STORY ID [78965]   |                     |                      |                |                  |   -DO-
